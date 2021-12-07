@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'Inter Flex';
+	src: url('/fonts/Inter-VariableFont_slnt,wght.ttf') format('ttf supports variations'),
+       url('/fonts/Inter-VariableFont_slnt,wght.ttf') format('ttf-variations');
+	font-weight: 100 1000;
+	font-stretch: 25% 151%;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Black.ttf');
+  font-weight: 800;
+}
+
+:root {
+  --lachs: #E1A080;
+  --cream: #F2ECD8;
+  --red: #BF4830;
+  --caramel: #C99142;
+  --pine: #2A442F;
+
+  --heading: #151515;
+  --text: #323232;
+
+  --white: #ffffff;
+  --black: #000000;
+
+  --fw-regular: 400;
+  --fw-bold: ;
+  --fw-black: 800;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: var(--lachs);
+  height: 100%;
+  font-size: 16px;
+}
+
+.main-app {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter';
+  /* font-family: 'inter'; */
+  font-weight: var(--fw-regular);
+}

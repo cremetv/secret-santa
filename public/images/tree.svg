@@ -1,0 +1,16 @@
+<svg width="318" height="485" viewBox="0 0 318 485" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M159 35L234 135H179.833L284 260H201.857L309 385H159H9L116.143 260H34.0001L138.167 135H84L159 35Z" fill="#2A442F"/>
+<path d="M159 385H9L116.143 260M159 385H309L201.857 260M159 385V485M201.857 260H284L179.833 135M201.857 260H116.143M116.143 260H34.0001L138.167 135M138.167 135H84L159 35L234 135H179.833M138.167 135H159H179.833" stroke="black" stroke-width="8"/>
+<path d="M128 151L138 137H180L190 151H128Z" fill="black" stroke="black" stroke-width="8"/>
+<path d="M106 276L116 262H202L212 276H106Z" fill="black" stroke="black" stroke-width="8"/>
+<circle cx="106" cy="332" r="13" fill="#BF4830" stroke="black" stroke-width="6"/>
+<circle cx="148" cy="231" r="12" fill="#C99142" stroke="black" stroke-width="6"/>
+<circle cx="197" cy="202" r="7" fill="#BF4830" stroke="black" stroke-width="6"/>
+<circle cx="181" cy="116" r="10" fill="#F2ECD8" stroke="black" stroke-width="6"/>
+<circle cx="138" cy="109" r="8" fill="#E1A080" stroke="black" stroke-width="6"/>
+<circle cx="154" cy="77" r="6" fill="#BF4830" stroke="black" stroke-width="6"/>
+<circle cx="127" cy="182" r="10" fill="#F2ECD8" stroke="black" stroke-width="6"/>
+<circle cx="204.5" cy="352.5" r="9.5" fill="#F2ECD8" stroke="black" stroke-width="6"/>
+<circle cx="169" cy="299" r="8" fill="#E1A080" stroke="black" stroke-width="6"/>
+<path d="M143.4 49.8L159 39.4L174.6 49.8L171.48 31.6L185 19.64L166.8 18.6L159 3L151.2 18.6L133 19.64L146.52 31.6L143.4 49.8Z" fill="#F2ECD8" stroke="black" stroke-width="6" stroke-linejoin="round"/>
+</svg>

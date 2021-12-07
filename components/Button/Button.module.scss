@@ -1,0 +1,18 @@
+.button {
+  display: inline-block;
+  position: relative;
+  padding: .5rem 1rem;
+  font-size: 2rem;
+  font-weight: var(--fw-bold);
+  background: var(--red);
+  color: var(--cream);
+  border-radius: .5rem;
+  margin-top: 6rem;
+  border: none;
+  cursor: pointer;
+
+  &--big {
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+}

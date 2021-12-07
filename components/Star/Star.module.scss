@@ -1,0 +1,17 @@
+.star {
+  position: absolute;
+}
+
+.animated {
+  color: red;
+  animation: star-shine 2s ease-in-out infinite alternate;
+}
+
+@keyframes star-shine {
+  from {
+    transform: scale(.9);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
