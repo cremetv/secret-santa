@@ -27,7 +27,7 @@ const Home = () => {
       <Button link="welcome" align="flex-end">login</Button>
 
       <Background>
-        <Tree left='-20%' bottom='-16%' />
+        <Tree left='-20%' bottom='-16%' slidein />
         <Star size="40" top="5%" left="-2%" animate />
         <Star size="60" top="17%" right="10%" animate />
         <Star size="80" top="35%" left="10%" animate />

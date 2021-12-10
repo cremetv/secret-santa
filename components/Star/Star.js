@@ -1,4 +1,6 @@
+import { useEffect, useRef } from "react"
 import Image from "next/dist/client/image"
+import { gsap } from "gsap"
 import styles from "./Star.module.scss"
 
 /**
@@ -13,6 +15,15 @@ import styles from "./Star.module.scss"
  * @returns 
  */
 const Star = props => {
+  const starRef = useRef()
+
+  useEffect(() => {
+    gsap.from(starRef.current, {
+      size: 0,
+      delay: .1
+    })
+  })
+
   return (
     <div 
       className={styles.star + ' ' + (props.animate && styles.animated)}
@@ -21,7 +32,8 @@ const Star = props => {
         top: props.top || 'unset',
         right: props.right || 'unset',
         bottom: props.bottom || 'unset',
-      }}>
+      }}
+      ref={starRef}>
       <Image 
         src="/images/star.svg" 
         alt="star" 
